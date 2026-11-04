@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172c28">
+  <meta name="description" content="Bruno Forte de Lunardi Pinto, élève ingénieur en double diplôme UFSC – ENSEEIHT. Projets en intelligence artificielle industrielle, automatique et systèmes énergétiques.">
+  <meta property="og:title" content="Bruno Forte — IA, automatique & énergie">
+  <meta property="og:description" content="De la donnée au système réel. Découvrez mon parcours entre le Brésil et la France et mes projets de recherche appliquée.">
+  <meta property="og:type" content="website">
+  <title>Bruno Forte — IA, automatique & énergie</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#accueil" aria-label="Bruno Forte, accueil">bf<span>●</span></a>
+      <button class="menu-toggle" aria-controls="navigation" aria-expanded="false">Menu <span aria-hidden="true">+</span></button>
+      <nav id="navigation" aria-label="Navigation principale">
+        <a href="#accueil" class="active" aria-current="location">Accueil</a>
+        <a href="#formation">Formation & projets</a>
+        <a href="#mobilite">Mobilité</a>
+        <a href="#engagement">Engagement</a>
+        <a href="#activites">Activités</a>
+        <a href="#carriere">Projet professionnel</a>
+      </nav>
+      <a class="header-contact" href="mailto:brunoforte.lp@gmail.com">Échangeons <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero section-wrap" id="accueil" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> BRÉSIL → FRANCE · ÉLÈVE INGÉNIEUR</p>
+        <h1 id="hero-title">De la donnée<br>au système <em>réel.</em></h1>
+        <p class="hero-intro">Je suis <strong>Bruno Forte.</strong><br>Je m’intéresse à ce que l’IA et l’automatique peuvent apporter aux systèmes industriels et à la transition énergétique.</p>
+        <p class="hero-school">En double diplôme à l’UFSC et à l’ENSEEIHT, à Toulouse.<br>Électronique · orientation souhaitée vers le parcours IATI.</p>
+        <div class="hero-actions">
+          <a class="button dark" href="#projets">Explorer mes projets <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="assets/cv-bruno-fr.pdf" target="_blank" rel="noopener">Mon CV <span class="small-label">FR</span> <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-topline"><span>RECHERCHE APPLIQUÉE</span><span>01 / 03</span></div>
+        <figure class="hero-photo">
+          <img src="assets/presentation-poster.webp" alt="Présentation du poster de recherche sur le diagnostic de défauts de lubrification, devant un public scientifique" width="900" height="1200" fetchpriority="high">
+          <figcaption><span class="caption-dot"></span> Du laboratoire au partage scientifique.</figcaption>
+        </figure>
+        <div class="hero-note"><span class="note-icon" aria-hidden="true">↗</span><span><strong>Apprendre. Expérimenter. Transmettre.</strong><br>Trois fils conducteurs de mon parcours.</span></div>
+        <div class="visual-stamp" aria-hidden="true">IA<br><span>×</span><br>ÉNERGIE</div>
+      </div>
+    </section>
+
+    <div class="discipline-strip" aria-label="Domaines de travail"><div><span>Intelligence artificielle industrielle</span><i>✳</i><span>Commande prédictive</span><i>✳</i><span>Systèmes énergétiques</span><i>✳</i><span>Recherche appliquée</span></div></div>
+
+    <section id="formation" class="section-wrap section-space" aria-labelledby="formation-title">
+      <div class="section-heading"><p class="eyebrow">01 / FORMATION & PROJETS</p><div><h2 id="formation-title">Comprendre les modèles.<br><span class="muted">Les confronter au terrain.</span></h2><p>Mon parcours associe automatique, analyse de données et expérimentation, avec un intérêt particulier pour les applications industrielles.</p></div></div>
+      <div class="education-grid">
+        <article class="education-item"><span class="date-tag">DEPUIS 2026-09</span><h3>ENSEEIHT · Toulouse INP</h3><p class="education-sub">Double diplôme · Électronique</p><p>Une nouvelle étape en France pour approfondir ma formation d’ingénieur. Je souhaite poursuivre vers le parcours IATI.</p><span class="location">Toulouse, France</span></article>
+        <article class="education-item"><span class="date-tag">DEPUIS 2022-03</span><h3>Universidade Federal<br>de Santa Catarina</h3><p class="education-sub">Génie du contrôle et de l’automatisation</p><p>Une formation en automatique, modélisation et programmation, enrichie par des expériences de recherche et de tutorat.</p><span class="location">Florianópolis, Brésil</span></article>
+      </div>
+
+      <div class="projects-heading" id="projets"><div><p class="eyebrow">UNE SÉLECTION DE TRAVAUX</p><h3>Des idées mises à l’épreuve.</h3></div><div class="filters" role="group" aria-label="Filtrer les projets"><button data-filter="all" aria-pressed="true">Tous</button><button data-filter="ia" aria-pressed="false">IA industrielle</button><button data-filter="energie" aria-pressed="false">Énergie</button></div></div>
+      <p id="filter-status" class="sr-only" aria-live="polite">3 projets affichés.</p>
+      <div class="projects-grid">
+        <article class="project-card featured" data-category="ia">
+          <button class="image-button project-image poster-cover" data-gallery="poster" aria-label="Agrandir le poster de recherche"><img src="assets/poster-recherche.webp" alt="Poster : Handling Noisy Labels in Industrial Scenarios, étude sur la qualité des annotations pour le diagnostic de lubrification" width="1200" height="1600" loading="lazy"><span class="image-expand" aria-hidden="true">↗</span></button>
+          <div class="project-body"><div class="project-meta"><span>01 — IA INDUSTRIELLE</span><span>2025–2026</span></div><h3>Des données plus fiables.<br>Un meilleur diagnostic.</h3><p>Détecter les annotations bruitées dans les signaux vibratoires pour améliorer le diagnostic de défauts de lubrification.</p><div class="tags"><span>Python</span><span>Machine learning</span><span>Signaux vibratoires</span></div>
+          <div class="result-highlight"><strong>87,8 → 91,3 <small>%</small></strong><span>AUROC de la Random Forest<br>dans l’étude collective</span></div>
+          <details><summary>Lire l’étude de cas <span aria-hidden="true">+</span></summary><div class="case-study"><h4>Le problème</h4><p>Les diagnostics rédigés en texte libre ne décrivent pas toujours correctement l’état des équipements. Des annotations erronées peuvent dégrader l’apprentissage supervisé.</p><h4>Ma contribution</h4><p>Au laboratoire Gama, dans un projet lié à Dynamox, j’ai travaillé sur le prétraitement des données vibratoires, l’extraction de caractéristiques, la structuration des métadonnées et l’étude de méthodes de détection des annotations bruitées.</p><h4>La méthode</h4><p>Analyser les signaux, classer les exemples suspects, puis évaluer l’effet du filtrage et de la correction des annotations sur plusieurs classifieurs.</p><h4>Les résultats de l’équipe</h4><p>Le poster présente 2 458 signaux issus de 300 machines, dont 322 signaux révisés par un spécialiste. Le raffinement améliore 3 des 4 classifieurs. Pour la Random Forest, le gain est de 3,5 points d’AUROC.</p><h4>Ce que j’en retiens</h4><p>La fiabilité d’un modèle dépend aussi de la qualité de ses données. Relier les signaux à l’expertise métier est une étape essentielle du diagnostic.</p><p class="source-note">Source des résultats : poster « Handling Noisy Labels in Industrial Scenarios: A Data-Centric Approach for Lubrication Fault Diagnosis ». Résultats collectifs, et non performance individuelle.</p><a class="text-link" href="assets/poster-recherche.webp" target="_blank" rel="noopener">Consulter le poster complet ↗</a></div></details>
+          </div>
+        </article>
+        <article class="project-card" data-category="energie">
+          <button class="image-button project-image" data-gallery="microgrid" aria-label="Agrandir la photo du banc de microréseau"><img src="assets/laboratoire-microreseau.webp" alt="Banc expérimental de microréseau avec émulateurs photovoltaïque et éolien, batteries et onduleurs" width="1000" height="563" loading="lazy"><span class="image-expand" aria-hidden="true">↗</span></button>
+          <div class="project-body"><div class="project-meta"><span>02 — OPTIMISATION & ÉNERGIE</span><span>2024–2025</span></div><h3>Piloter l’énergie<br>d’un microréseau.</h3><p>Modéliser un système associant production renouvelable, stockage et charges flexibles pour optimiser sa gestion.</p><div class="tags"><span>Python</span><span>CVXPY</span><span>MPC · MIP</span></div><details><summary>Lire l’étude de cas <span aria-hidden="true">+</span></summary><div class="case-study"><h4>Le contexte</h4><p>Un microréseau doit coordonner des sources variables, des batteries et des usages dont certains peuvent être déplacés dans le temps.</p><h4>Ma contribution · INCT</h4><p>Entre 2024-06 et 2025-07, j’ai développé des outils Python de gestion et d’optimisation pour un microréseau expérimental intégrant plusieurs sources renouvelables.</p><h4>La méthode et les livrables</h4><p>Modélisation avec Pandas et CVXPY, programmation mixte en nombres entiers et commande prédictive. Le modèle prend en compte les charges décalables et les coûts de dégradation des batteries. J’ai également étudié la prévision de production solaire et de demande.</p><h4>Ce que j’en retiens</h4><p>Un objectif mathématique doit rester compatible avec les contraintes physiques du système. Le choix des hypothèses est aussi important que celui du solveur.</p><p class="source-note">La photo présente le banc expérimental du laboratoire.</p></div></details></div>
+        </article>
+        <article class="project-card" data-category="energie">
+          <button class="image-button project-image" data-gallery="hydrogen" aria-label="Agrandir la photo du banc hydrogène"><img src="assets/laboratoire-hydrogene.webp" alt="Installation expérimentale avec électrolyseur, piles à combustible et réservoir d’hydrogène" width="1000" height="563" loading="lazy"><span class="image-expand" aria-hidden="true">↗</span></button>
+          <div class="project-body"><div class="project-meta"><span>03 — HYDROGÈNE VERT</span><span>2023–2024</span></div><h3>Relier simulation<br>et expérimentation.</h3><p>Étudier la production d’hydrogène et le fonctionnement des piles à combustible par la simulation et les essais.</p><div class="tags"><span>MATLAB</span><span>Commande prédictive</span><span>Expérimentation</span></div><details><summary>Lire l’étude de cas <span aria-hidden="true">+</span></summary><div class="case-study"><h4>Le contexte</h4><p>La production et l’utilisation d’hydrogène demandent de comprendre le fonctionnement des équipements et l’influence de leurs conditions opératoires.</p><h4>Ma contribution · INCT</h4><p>Entre 2023-06 et 2024-06, j’ai étudié des stratégies d’optimisation de l’efficacité des électrolyseurs à l’aide de techniques de commande prédictive.</p><h4>La méthode et les livrables</h4><p>Simulations MATLAB pour étudier la faisabilité technique d’une installation d’hydrogène vert, ainsi que maintenance, essais et validation du fonctionnement de piles à combustible.</p><h4>Ce que j’en retiens</h4><p>Les essais donnent du sens aux modèles. La simulation permet d’explorer des hypothèses, puis le matériel révèle les limites qu’il faut prendre en compte.</p></div></details></div>
+        </article>
+      </div>
+      <div class="skills-band"><p class="eyebrow">MA BOÎTE À OUTILS</p><dl><div><dt>Données & IA</dt><dd>Python · Pandas · NumPy · Scikit-learn · TensorFlow · Hamilton</dd></div><div><dt>Modélisation & commande</dt><dd>MATLAB · MPC · CVXPY · optimisation mixte en nombres entiers</dd></div><div><dt>Méthodes de travail</dt><dd>Analyse de signaux · revue bibliographique · expérimentation · Git</dd></div></dl></div>
+    </section>
+
+    <section id="mobilite" class="mobility-section section-space" aria-labelledby="mobilite-title"><div class="section-wrap">
+      <div class="section-heading"><p class="eyebrow">02 / MOBILITÉ INTERNATIONALE</p><div><h2 id="mobilite-title">Deux pays.<br>Un parcours qui s’élargit.</h2><p>Mon double diplôme relie ma formation brésilienne en automatique à une formation en électronique en France.</p></div></div>
+      <div class="mobility-layout"><div class="route-card" aria-label="Parcours de Florianópolis à Toulouse"><div class="route-stop"><span class="route-code">BR</span><div><h3>Florianópolis</h3><p>UFSC · Contrôle & automatisation</p></div></div><div class="route-line"><span>DOUBLE DIPLÔME</span><span aria-hidden="true">↓</span></div><div class="route-stop"><span class="route-code accent">FR</span><div><h3>Toulouse</h3><p>ENSEEIHT · Électronique · depuis 2026-09</p></div></div></div><div class="mobility-copy"><h3>Apprendre dans un autre contexte.</h3><p>Étudier à l’ENSEEIHT me permet de confronter mes acquis à d’autres méthodes, d’élargir ma culture d’ingénieur et de construire un parcours international.</p><p>Je souhaite faire dialoguer l’automatique, l’électronique et l’intelligence artificielle, avec une orientation vers le parcours IATI.</p><div class="language-list"><span><strong>Portugais</strong>Langue maternelle</span><span><strong>Anglais</strong>Niveau B2</span><span><strong>Français</strong>Langue de mes études en France</span></div></div></div>
+    </div></section>
+
+    <section id="engagement" class="section-wrap section-space" aria-labelledby="engagement-title"><div class="section-heading"><p class="eyebrow">03 / DURABILITÉ & ENGAGEMENT CITOYEN</p><div><h2 id="engagement-title">Une technique utile.<br><span class="muted">Un savoir qui se partage.</span></h2></div></div>
+      <div class="engagement-grid"><article class="engagement-main"><span class="line-icon" aria-hidden="true">↗</span><h3>Mettre l’ingénierie au service<br>de la transition énergétique.</h3><p>Mes travaux sur les microréseaux et l’hydrogène vert m’ont amené à étudier l’intégration des énergies renouvelables, le stockage et l’utilisation plus efficace des équipements.</p><p>Cette expérience nourrit mon intérêt pour des décisions de commande qui tiennent compte des ressources et des contraintes réelles.</p><a class="text-link" href="#projets">Voir les projets énergétiques ↗</a></article><div><article class="engagement-small"><span class="eyebrow">TRANSMISSION</span><h3>Tutorat en automatique</h3><p>À l’UFSC, j’ai accompagné les étudiants du cours de théorie et simulation du contrôle des procédés : explication des concepts, résolution d’exercices et appui aux méthodes de travail.</p></article><article class="engagement-small"><span class="eyebrow">SOLIDARITÉ</span><h3>Un engagement local au Brésil</h3><p>J’ai participé à des activités bénévoles de la paroisse São João de Brito, notamment à l’organisation d’événements destinés aux enfants de la région.</p></article></div></div>
+    </section>
+
+    <section id="activites" class="activities-section section-space" aria-labelledby="activites-title"><div class="section-wrap"><div class="section-heading"><p class="eyebrow">04 / SPORT, ACTIVITÉS & CENTRES D’INTÉRÊT</p><div><h2 id="activites-title">La curiosité se cultive<br><span class="muted">aussi ensemble.</span></h2><p>Les rencontres, la communication scientifique et les défis mathématiques complètent mon apprentissage.</p></div></div>
+      <div class="activity-feature"><button class="image-button" data-gallery="workshop-group" aria-label="Agrandir la photo de groupe du workshop Dynamox"><img src="assets/workshop-groupe.webp" alt="Photo de groupe lors d’un workshop lié aux travaux du laboratoire et de Dynamox" width="1000" height="750" loading="lazy"><span class="image-expand" aria-hidden="true">↗</span></button><div class="activity-feature-copy"><p class="eyebrow">ÉCHANGER POUR PROGRESSER</p><h3>Donner une voix<br>aux résultats.</h3><p>Les workshops et les présentations de recherche sont des occasions de prendre du recul, de confronter les approches et de rendre un travail technique compréhensible.</p><p>Expliquer une méthode, ses résultats et ses limites fait partie de mon apprentissage d’ingénieur.</p></div></div>
+      <div class="activities-bottom"><article><span class="eyebrow">LE GOÛT DU RAISONNEMENT</span><h3>Mathématiques & résolution de problèmes</h3><p>Médaille de bronze à l’OBMEP et médaille d’argent au concours Kangourou de mathématiques au Brésil : deux expériences qui ont renforcé mon intérêt pour le raisonnement et les problèmes ouverts.</p></article><article><span class="eyebrow">LE FIL CONDUCTEUR</span><h3>Apprendre et transmettre</h3><p>Du tutorat aux présentations scientifiques, j’aime construire une explication claire et relier un raisonnement à une application concrète.</p></article></div>
+      <div class="gallery-heading"><h3>Quelques moments du parcours</h3><p>Cliquez sur une image pour l’explorer.</p></div><div class="photo-gallery" id="photo-gallery" aria-label="Galerie de projets et de rencontres">
+        <button class="image-button" data-gallery="poster-team" aria-label="Présentation du poster de recherche"><img src="assets/poster-equipe.webp" alt="Deux participants devant le poster de recherche" width="750" height="1000" loading="lazy"><span class="gallery-label">Communication scientifique ↗</span></button>
+        <button class="image-button" data-gallery="workshop-talk" aria-label="Présentation technique lors d’un workshop"><img src="assets/workshop-presentation.webp" alt="Présentation de graphiques et de résultats lors d’un workshop" width="750" height="1000" loading="lazy"><span class="gallery-label">Partage des résultats ↗</span></button>
+        <button class="image-button" data-gallery="lab-overview" aria-label="Vue d’ensemble du laboratoire énergétique"><img src="assets/laboratoire-ensemble.webp" alt="Vue du laboratoire avec électrolyseur et émulateurs d’énergie renouvelable" width="1000" height="563" loading="lazy"><span class="gallery-label">Expérimentation ↗</span></button>
+        <button class="image-button" data-gallery="workshop-2026" aria-label="Rencontre de l’équipe lors d’un workshop"><img src="assets/workshop-rencontre.webp" alt="Groupe de participants réuni lors d’un workshop" width="750" height="1000" loading="lazy"><span class="gallery-label">Rencontres d’équipe ↗</span></button>
+      </div>
+    </div></section>
+
+    <section id="carriere" class="section-wrap section-space" aria-labelledby="carriere-title"><div class="section-heading"><p class="eyebrow">05 / PROJET PROFESSIONNEL</p><div><h2 id="carriere-title">Faire le lien entre<br><span class="muted">IA, industrie et énergie.</span></h2><p>Je souhaite développer des méthodes fondées sur les données et les modèles pour mieux comprendre, diagnostiquer et piloter les systèmes physiques.</p></div></div>
+      <div class="career-layout"><div class="career-portrait"><img src="assets/bruno-portrait.webp" alt="Portrait de Bruno Forte de Lunardi Pinto" width="409" height="371" loading="lazy"><p>Bruno Forte de Lunardi Pinto<span>Élève ingénieur · UFSC × ENSEEIHT</span></p></div><div class="career-copy"><h3>Ce que je peux apporter</h3><p>Une expérience qui relie l’analyse de signaux industriels, la préparation de données pour l’apprentissage et la modélisation de systèmes énergétiques.</p><h3>Ce que je souhaite approfondir</h3><p>L’intelligence artificielle appliquée à l’industrie, les jumeaux numériques et la modélisation fondée sur les données, en m’appuyant sur ma formation en automatique et en électronique.</p><div class="career-documents"><a href="assets/cv-bruno-fr.pdf" target="_blank" rel="noopener"><span><strong>Curriculum vitæ</strong><small>Français · PDF</small></span><span aria-hidden="true">↗</span></a><a href="assets/cv-bruno-en.pdf" target="_blank" rel="noopener" lang="en"><span><strong>Curriculum vitae</strong><small>English · PDF</small></span><span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/bruno-forte-294a33240/" target="_blank" rel="noopener"><span><strong>Retrouvons-nous sur LinkedIn</strong><small>Parcours & réseau professionnel</small></span><span aria-hidden="true">↗</span></a></div></div></div>
+      <!-- Opcional: após gravar seu pitch, use um <video controls> com arquivo local
+           ou um link para o vídeo. O guia em português explica os entregáveis CAM. -->
+    </section>
+
+    <section class="contact-section" aria-labelledby="contact-title"><div class="section-wrap"><p class="eyebrow">LA SUITE COMMENCE PAR UNE CONVERSATION.</p><div class="contact-row"><h2 id="contact-title">Et si on échangeait <span>?</span></h2><a class="contact-circle" href="mailto:brunoforte.lp@gmail.com" aria-label="Écrire à Bruno Forte par e-mail">↗</a></div><a class="contact-email" href="mailto:brunoforte.lp@gmail.com">brunoforte.lp@gmail.com</a><div class="contact-footer"><span>Toulouse, France · Florianópolis, Brésil</span><a href="https://www.linkedin.com/in/bruno-forte-294a33240/" target="_blank" rel="noopener">LinkedIn ↗</a></div></div></section>
+  </main>
+  <footer class="site-footer section-wrap"><span>© <span id="year">2026</span> Bruno Forte de Lunardi Pinto</span><span>Portfolio évolutif · mis à jour le 2026-11-04</span><a href="#accueil">Retour en haut ↑</a></footer>
+  <dialog id="lightbox" aria-labelledby="lightbox-caption"><div class="lightbox-toolbar"><span id="lightbox-count"></span><button class="lightbox-close" aria-label="Fermer la galerie">Fermer ×</button></div><div class="lightbox-stage"><button class="lightbox-prev" aria-label="Image précédente">←</button><img id="lightbox-image" src="assets/poster-recherche.webp" alt=""><button class="lightbox-next" aria-label="Image suivante">→</button></div><p id="lightbox-caption"></p></dialog>
+</body>
+</html>
